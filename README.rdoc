@@ -1,3 +1,4 @@
 == Pinteresting 
 
-Project for OneMonth.com/rails.
+Project for https://onemonth.com/courses/one-month-rails
+
