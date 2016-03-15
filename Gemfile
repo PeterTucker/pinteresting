@@ -36,8 +36,9 @@ gem 'devise'
 # Must install imagemagick first to use paperclip
 # sudo apt-get update
 # sudo apt-get install imagemagick --fix-missing
-gem 'paperclip', '~> 4.2'# '~> 3.0'
+gem 'paperclip', '~> 4.2' # '~> 3.0'
 gem 'bootstrap-sass'
+gem 'aws-sdk', '< 2.0'
 
 group :production do
 	gem 'pg'
