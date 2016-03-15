@@ -32,6 +32,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 
 gem 'devise'
+
+# Must install imagemagick first to use paperclip
+# sudo apt-get update
+# sudo apt-get install imagemagick --fix-missing
+gem 'paperclip', '~> 4.2'# '~> 3.0'
 gem 'bootstrap-sass'
 
 group :production do
