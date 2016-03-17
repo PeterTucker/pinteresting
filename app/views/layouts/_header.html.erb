@@ -10,13 +10,14 @@
       </button>
       <%= link_to "Pinteresting", root_path, class: "navbar-brand" %>
     </div>
-
-  </ul>
+    
   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav navbar-right">
       <li><%= link_to "home", root_path %></li>
       <li><%= link_to "about", about_path %></li>
+
       <% if user_signed_in? %>
+        <li><%= link_to 'New Pin', new_pin_path %></li>
         <li><%= link_to "Account Settings", edit_user_registration_path %></li>
         <li><%= link_to "Sign Out", destroy_user_session_path, method: :delete %></li>
       <% else %>
